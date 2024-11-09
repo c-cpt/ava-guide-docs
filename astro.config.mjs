@@ -6,20 +6,19 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Docs with Tailwind",
+      title: "Blockchain Guide",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/c-cpt/ava-guide-docs",
       },
       editLink: {
-        baseUrl:
-          "https://github.com/c-cpt/ava-guide-docs/edit/main/content/docs/",
+        baseUrl: "https://github.com/c-cpt/ava-guide-docs/edit/main/",
       },
       sidebar: [
         {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "9000 Guide", slug: "guides/avalanche9000" },
           ],
         },
         {
