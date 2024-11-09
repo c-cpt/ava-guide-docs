@@ -7,9 +7,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Avalanche Developer Series",
-      social: {
-        github: "https://github.com/c-cpt/ava-guide-docs",
-      },
+      //   social: {
+      //     github: "https://github.com/c-cpt/ava-guide-docs",
+      //   },
       editLink: {
         baseUrl: "https://github.com/c-cpt/ava-guide-docs/edit/main/",
       },
