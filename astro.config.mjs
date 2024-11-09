@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Blockchain Guide",
+      title: "Avalanche Developer Series",
       social: {
         github: "https://github.com/c-cpt/ava-guide-docs",
       },
