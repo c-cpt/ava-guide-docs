@@ -6,3 +6,58 @@
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
+.social-icons::after {
+  display: none;
+}
+starlight-theme-select {
+  display: none;
+}
+
+/* Dark mode colors. */
+:root {
+  --sl-color-accent-low: #421012;
+  --sl-color-accent: #ff394a;
+  --sl-color-accent-high: #ff394a;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #ededef;
+  --sl-color-gray-2: #c8c8ca;
+  --sl-color-gray-3: #a3a3a7;
+  --sl-color-gray-4: #58585b;
+  --sl-color-gray-5: #38383b;
+  --sl-color-gray-6: #262629;
+  --sl-color-black: #181819;
+}
+/* Light mode colors. */
+:root[data-theme="light"] {
+  --sl-color-accent-low: #fbc9c6;
+  --sl-color-accent: #a40021;
+  --sl-color-accent-high: #600c14;
+  --sl-color-white: #181819;
+  --sl-color-gray-1: #262629;
+  --sl-color-gray-2: #38383b;
+  --sl-color-gray-3: #58585b;
+  --sl-color-gray-4: #8b8b8f;
+  --sl-color-gray-5: #c2c2c4;
+  --sl-color-gray-6: #ededef;
+  --sl-color-gray-7: #f6f6f7;
+  --sl-color-black: #ffffff;
+}
+
+:where(.astro-3ii7xxms)[aria-current="page"] {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid var(--sl-color-text-accent);
+  padding: 10px 10px 12px 10px;
+}
+:where(.astro-3ii7xxms)[aria-current="page"]:hover {
+  color: var(--sl-color-text-accent);
+  background-color: transparent;
+}
+
+a:where(.astro-3ii7xxms) {
+  padding: 10px 10px 12px 10px;
+}
+a:where(.astro-3ii7xxms):hover {
+  color: var(--sl-color-text-accent);
+  text-decoration: none;
+}

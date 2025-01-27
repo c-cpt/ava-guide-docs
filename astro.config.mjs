@@ -1,3 +1,4 @@
+// @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
@@ -6,19 +7,23 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Developer Series",
+      title: "",
       social: {
         github: "https://github.com/ava-labs",
       },
       editLink: {
         baseUrl: "https://github.com/c-cpt/ava-guide-docs/edit/main/",
       },
+      logo: {
+        src: "./src/assets/dev_logo.svg",
+        replacesTitle: true,
+      },
       sidebar: [
         {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "9000 Guide", slug: "guides/avalanche9000" },
+            { label: "Example Guide", slug: "guides/example" },
           ],
         },
         {
