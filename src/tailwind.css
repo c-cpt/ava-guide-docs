@@ -71,6 +71,7 @@ a:where(.astro-3ii7xxms):hover {
 
 ul:where(.astro-g2bywc46)[style="--depth: 0;"] {
   padding-left: 15px;
+  margin-left: 15px;
   border-left: 1px solid rgba(255, 255, 255, 0.8);
 }
 
@@ -84,4 +85,10 @@ a:where(.astro-g2bywc46)[aria-current="true"]::before {
   position: absolute;
   left: -29px;
   top: -2px;
+}
+
+@media (min-width: 768px) {
+  ul:where(.astro-g2bywc46)[style="--depth: 0;"] {
+    margin-left: 0px;
+  }
 }
