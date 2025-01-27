@@ -6,6 +6,11 @@
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
+
+:root {
+  --sl-icon-color: white;
+}
+/* .social-icons, */
 .social-icons::after {
   display: none;
 }
@@ -60,4 +65,23 @@ a:where(.astro-3ii7xxms) {
 a:where(.astro-3ii7xxms):hover {
   color: var(--sl-color-text-accent);
   text-decoration: none;
+}
+
+/*  */
+
+ul:where(.astro-g2bywc46)[style="--depth: 0;"] {
+  padding-left: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+a:where(.astro-g2bywc46)[aria-current="true"] {
+  position: relative;
+}
+a:where(.astro-g2bywc46)[aria-current="true"]::before {
+  /* content: "🔗 "; */
+  content: url(assets/bullet.svg);
+  color: var(--sl-color-text-accent);
+  position: absolute;
+  left: -29px;
+  top: -2px;
 }
