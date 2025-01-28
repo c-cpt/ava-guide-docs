@@ -22,6 +22,7 @@ const gray = {
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  themes: ["starlight-dark"],
   //   theme: {
   //     extend: {
   //       colors: {
@@ -36,5 +37,6 @@ export default {
   theme: {
     colorScheme: "dark", // Set the default color scheme to 'dark'
   },
+  useStarlightDarkModeSwitch: false,
   plugins: [starlightPlugin()],
 };
