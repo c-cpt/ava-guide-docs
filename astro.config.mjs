@@ -16,7 +16,7 @@ export default defineConfig({
           },
         },
       ],
-      favicon: "./src/assets/favicon.ico",
+      favicon: "/favicon.ico",
       title: "",
       social: {
         github: "https://github.com/ava-labs",
