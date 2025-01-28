@@ -12,7 +12,7 @@ export default defineConfig({
         {
           tag: "script",
           attrs: {
-            src: "/public/plugins/theme.js",
+            src: "/plugins/theme.js",
           },
         },
       ],
