@@ -7,6 +7,15 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [
     starlight({
+      head: [
+        // Example: add Fathom analytics script tag.
+        {
+          tag: "script",
+          attrs: {
+            src: "/public/plugins/theme.js",
+          },
+        },
+      ],
       title: "",
       social: {
         github: "https://github.com/ava-labs",
