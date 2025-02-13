@@ -28,6 +28,9 @@ export default defineConfig({
         src: "./src/assets/dev_logo.svg",
         replacesTitle: true,
       },
+      components: {
+        Hero: './src/components/Hero.astro',
+      },
       sidebar: [
         {
           label: "Guides",

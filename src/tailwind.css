@@ -10,10 +10,16 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 :root {
   --sl-icon-color: white;
 }
+
 /* .social-icons, */
+.social-icons {
+  display: none;
+}
+
 .social-icons::after {
   display: none;
 }
+
 starlight-theme-select {
   display: none;
 }
@@ -30,8 +36,9 @@ starlight-theme-select {
   --sl-color-gray-4: #58585b;
   --sl-color-gray-5: #38383b;
   --sl-color-gray-6: #262629;
-  --sl-color-black: #181819;
+  --sl-color-black: #000000;
 }
+
 /* Light mode colors. */
 :root[data-theme="light"] {
   --sl-color-accent-low: #fbc9c6;
@@ -54,6 +61,7 @@ starlight-theme-select {
   border: 1px solid var(--sl-color-text-accent);
   padding: 10px 10px 12px 10px;
 }
+
 :where(.astro-3ii7xxms)[aria-current="page"]:hover {
   color: var(--sl-color-text-accent);
   background-color: transparent;
@@ -62,6 +70,7 @@ starlight-theme-select {
 a:where(.astro-3ii7xxms) {
   padding: 10px 10px 12px 10px;
 }
+
 a:where(.astro-3ii7xxms):hover {
   color: var(--sl-color-text-accent);
   text-decoration: none;
@@ -79,6 +88,7 @@ ul:where(.astro-g2bywc46)[style="--depth: 0;"] {
 a:where(.astro-g2bywc46)[aria-current="true"] {
   position: relative;
 }
+
 a:where(.astro-g2bywc46)[aria-current="true"]::before {
   /* content: "🔗 "; */
   content: url(assets/bullet.svg);
@@ -86,6 +96,36 @@ a:where(.astro-g2bywc46)[aria-current="true"]::before {
   position: absolute;
   left: -29px;
   top: -2px;
+}
+
+.astro-eez2twj6 {
+  display: none;
+}
+
+.main-pane::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/src/assets/top-mesh.svg') no-repeat top center;
+  background-size: 100% auto;
+}
+
+.main-pane::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/src/assets/footer-mesh.svg') no-repeat bottom center;
+  background-size: 100% auto;
+}
+
+.header:where(.astro-vrdttmbt) {
+  background-color: rgba(0, 0, 0, .9)
 }
 
 @media (min-width: 768px) {
