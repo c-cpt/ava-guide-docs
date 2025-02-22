@@ -11,6 +11,10 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
   --sl-icon-color: white;
 }
 
+.page {
+  position: relative;
+}
+
 /* .social-icons, */
 .social-icons {
   display: none;
@@ -102,30 +106,8 @@ a:where(.astro-g2bywc46)[aria-current="true"]::before {
   display: none;
 }
 
-.main-pane::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('/src/assets/top-mesh.svg') no-repeat top center;
-  background-size: 100% auto;
-}
-
-.main-pane::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('/src/assets/footer-mesh.svg') no-repeat bottom center;
-  background-size: 100% auto;
-}
-
-.header:where(.astro-vrdttmbt) {
-  background-color: rgba(0, 0, 0, .9)
+.main-pane {
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
