@@ -6,6 +6,20 @@
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
+@font-face {
+  font-family: "Aeonik Fono";
+  src: url("/src/assets/fonts/AeonikFono-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Aeonik Fono", sans-serif;
+}
+
+svg:where(.astro-jif73yzw) {
+  color: black;
+}
 
 :root {
   --sl-icon-color: white;

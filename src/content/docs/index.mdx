@@ -9,69 +9,113 @@ hero:
 
 import "./index.css";
 
-<div className="index-content">
+<div className="index-content text-white">
   <div className="top-content"> </div>
   <div className="home-content">
-    <div>
-      <img src="/src/assets/e1evate.svg" />
+    <div className="md:px-[80px]">
+      <div>
+        <img src="/src/assets/e1evate.svg" />
+      </div>
+      <div className="font-bold text-[30px] leading-[35px] md:text-[45px] md:leading-[50px] max-w-[600px]">
+        A Knowledge Base for Blockchain Developers
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 pt-[50px]">
+        <div className="md:mb-0 mb-5 font-light text-[50px] md:text-[80px] text-[#FF394A] leading-[50px] md:leading-[80px]">
+          <div> Developers,</div>
+          <div> this resource is yours</div>
+        </div>
+        <div className="text-[18px] opacity-80">
+          Wherever you are on your blockchain developer’s journey this
+          collection of resources belongs to you. Here you’ll find guides and
+          tips for developers of any skill level, as well as inspiring stories
+          from Avalanche builders. Let the builder stories spark your creativity
+          and use the guides to bring your new ideas to life. We hope you’ll
+          create your own forks, add your own thoughts based on your experience,
+          and join the community in creating a shared knowledge base for all of
+          us.
+        </div>
+      </div>
     </div>
-    <div className="font-bold text-[45px] leading-[50px] max-w-[600px]">
-      A Knowledge Base for Blockchain Developers
+    <div className="md:px-[80px]">
+      <div className="pt-12 md:pt-[120px]">
+        <img className="w-[265px]" src="/src/assets/e1evateDevSLogo.svg" />
+      </div>
+      <div className="text-[24px] pt-5 leading-[24px]">
+        These guides focus on the practical aspects of blockchain development,
+        including practical tips to get started, get connected with a community,
+        and kick off your first project.
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-12 md:gap-4 pt-8">
+        <a href="/guides/getting_started_with_blockchain_development/" class="d-block col-span-7 border border-red-500 p-4 rounded-lg mt-0 mb-5 md:mb-0">
+          <div class="text-[#FF394A] text-[32px] leading-[35px]">
+            <strong>The Ultimate Guide</strong> to Becoming a Blockchain
+            Developer
+          </div>
+          <div class="mt-2 text-white">
+           <strong> Start with this guide </strong> if you’re already developing in web2 and are
+            curious about blockchain, or you’ve started experimenting but want
+            to dive deeper. This guide will help you develop a plan and acquire
+            or level up the necessary skills.
+          </div>
+        </a>
+        <a href="/guides/getting_started_with_blockchain_development/" class="d-block col-span-5 border border-red-500 p-4 rounded-lg"
+          style={{ marginTop: "0px" }}
+        >
+          <div class="text-[#FF394A] text-[32px] leading-[35px]">
+            <strong>Beginner's Guide</strong> to Blockchain Development
+          </div>
+          <div class="text-white mt-2">
+            You'll find terms, definitions, places to start, and advice for new
+            blockchain developers.
+          </div>
+          <div className="text-[#FF394A] text-[14px] ">
+            Stay tuned for our next guide coming soon.
+          </div>
+        </a>
+      </div>
+      <div className="text-[24px] flex pt-1">Explore More Guides <span className="pt-[11px] pl-2"> <img src="/src/assets/icons/arrow-up-right.svg" /> </span></div>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-[50px]">
-      <div className="font-light text-[80px] text-[#FF394A] leading-[80px] max-w-[450px]">
-        <div> Developers,</div>
-        <div> this resource is yours</div>
-      </div>
-      <div className="text-[18px]">
-        Wherever you are on your blockchain developer’s journey this collection
-        of resources belongs to you. Here you’ll find guides and tips for
-        developers of any skill level, as well as inspiring stories from
-        Avalanche builders. Let the builder stories spark your creativity and
-        use the guides to bring your new ideas to life. We hope you’ll create
-        your own forks, add your own thoughts based on your experience, and join
-        the community in creating a shared knowledge base for all of us.
+    <div className="pt-[40px] md:px-[80px] bg-[url(/src/assets/Circles_01.svg)] bg-no-repeat bg-right-top">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mt-6">
+        <div>
+          <div className="pb-4">
+            <img className="w-[250px]" src="/src/assets/e1evateBuildSLogo.svg" />
+          </div>
+          <div className="text-[24px] leading-[26px]">
+            See how experienced builders are developing on blockchain. These
+            stories are inspiring and educational–each one features tips for new
+            and up-and-coming developers.
+          </div>
+          <a href="https://www.youtube.com/playlist?list=PLRHl-ulWK4-HfcdFZ1r3Dgl6YvKz8uXcj" target="_blank">
+            <div className="mt-5 text-[26px] flex text-white"> Explore Builder Stories  <span className="pt-[11px] pl-2"> <img src="/src/assets/icons/arrow-up-right.svg" /> </span></div>
+          </a>
+        </div>
+        <div className="pt-12 text-right">
+          <div className="max-w-[528px] text-right ml-auto">
+          <a href="https://www.youtube.com/playlist?list=PLRHl-ulWK4-HfcdFZ1r3Dgl6YvKz8uXcj" target="_blank">
+            <img className="mt-3 " src="/src/assets/builderStory1Thumb.png" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div className="pt-[120px]">
-    <img src="/src/assets/e1evateDevSLogo.svg" />
-  </div>
-  <p class="pt-1">
-  These guides focus on the practical aspects of blockchain development, including practical tips to get started, get connected with a community, and kick off your first project.
-  </p>
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-      <div class="col-span-7 border border-red-500 p-4 rounded-lg mt-0">
-          <div class="text-[#FF394A] font-bold text-[35px] leading-[35px]">The Ultimate Guide to Becoming a Blockchain Developer</div>
-          <p class="mt-2">Start with this guide if you’re already developing in web2 and are curious about blockchain, or you’ve started experimenting but want to dive deeper. This guide will help you develop a plan and acquire or level up the necessary skills.</p>
-      </div>
-      <div class="col-span-5 border border-red-500 p-4 rounded-lg mt-0" style={{ marginTop: "0px" }}>
-          <div class="text-[#FF394A] font-bold text-[35px] leading-[35px]">Beginner's Guide to Blockchain Development</div>
-          <p class=" mt-2">You'll find terms, definitions, places to start, and advice for new blockchain developers.</p>
-          <div className="text-[#FF394A] text-[14px] "> Stay tuned for our next guide coming soon.</div> 
-      </div>
-  </div>
-  <div> 
-  Explore More Guides
-  </div>
+    <div className="md:px-[80px] bg-[url(/src/assets/Circles_02.svg)] bg-no-repeat bg-right-top pt-[100px]">
+      <section class="bg-black bg-opacity-90 max-w-[730px] py-8 border border-red-500 p-6 rounded-lg text-left">
+        <h3 class="text-xl font-bold">The Avalanche Builders Hub</h3>
+        <div class="text-gray-400 mt-2">
+          Ready to start building on Avalanche? These resources can help you get
+          the most out of Avalanche’s features and community.
+        </div>
+       >
+         <a href="https://docs.avax.network/build/" target="_blank">
+          <div className="flex mt-4 text-red-500"> 
+           <span> Get Started </span> <span className="pt-[5px] pl-2"> <img src="/src/assets/icons/arrow-up-right.svg" /> </span>
+          </div>
+        </a>
+      </section>
+    </div>
 
-<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-  <div>
-    <div>
-      <img src="/src/assets/e1evateBuildSLogo.svg" />
-    </div>
-    <div>
-      See how experienced builders are developing on blockchain. These stories
-      are inspiring and educational–each one features tips for new and
-      up-and-coming developers.
-    </div>
-    <div> Explore Builder Stories </div>
-  </div>
-  <div className="text-center pt-12">
-    <img src="/src/assets/builderStory1Thumb.png" />
-  </div>
-</div>
+    <div className="bottom-content"> </div>
 
-  <div className="footer">FOOTER</div>
-  <div className="bottom-content"> </div>
+  </div>
 </div>

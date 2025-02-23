@@ -1,6 +1,6 @@
-/* .sl-container {
+.sl-container {
   max-width: 1440px !important;
-} */
+}
 .astro-bguv2lll {
   overflow-x: hidden;
 }
@@ -8,7 +8,7 @@
   z-index: -1;
   content: "";
   position: absolute;
-  top: 0;
+  top: 40px;
   left: -100px;
   right: 0;
   bottom: 0;
@@ -20,18 +20,32 @@
 }
 
 .footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  margin-top: 25px !important;
 }
 
 .bottom-content {
   z-index: -1;
   height: 500px;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   right: 0;
   left: 0;
   background: url("/src/assets/footer-mesh.svg") no-repeat bottom center;
-  background-size: 100% auto;
+  background-size: 200% auto;
+}
+a {
+  text-decoration: none;
+}
+
+/*  media query for desktop */
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 205px !important;
+  }
+  .top-content::before {
+    top: 0;
+  }
+  .bottom-content {
+    background-size: 100% auto;
+  }
 }
