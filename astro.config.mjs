@@ -7,11 +7,6 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-    optimizeDeps: {
-      include: ["zwitch"],
-    },
-  },
   integrations: [
     starlight({
       head: [
@@ -32,7 +27,7 @@ export default defineConfig({
         baseUrl: "https://github.com/c-cpt/ava-guide-docs/edit/main/",
       },
       logo: {
-        src: "./src/assets/dev_logo.svg",
+        src: "./imgs/dev_logo.svg",
         replacesTitle: true,
       },
       components: {
