@@ -8,7 +8,7 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
 @font-face {
   font-family: "Aeonik Fono";
-  src: url("../../src/assets/fonts/AeonikFono-Regular.otf") format("opentype");
+  src: url("/fonts/AeonikFono-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
