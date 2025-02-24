@@ -8,7 +8,7 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
 @font-face {
   font-family: "Aeonik Fono";
-  src: url("/imgs/fonts/AeonikFono-Regular.otf") format("opentype");
+  src: url("../../src/assets/fonts/AeonikFono-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -109,7 +109,7 @@ a:where(.astro-g2bywc46)[aria-current="true"] {
 
 a:where(.astro-g2bywc46)[aria-current="true"]::before {
   /* content: "🔗 "; */
-  content: url(/imgs/);
+  content: url(assets/bullet.svg);
   color: var(--sl-color-text-accent);
   position: absolute;
   left: -29px;
