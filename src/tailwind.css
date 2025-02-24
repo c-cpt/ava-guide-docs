@@ -109,7 +109,7 @@ a:where(.astro-g2bywc46)[aria-current="true"] {
 
 a:where(.astro-g2bywc46)[aria-current="true"]::before {
   /* content: "🔗 "; */
-  content: url(assets/bullet.svg);
+  content: url(/imgs/);
   color: var(--sl-color-text-accent);
   position: absolute;
   left: -29px;

@@ -27,7 +27,7 @@ export default defineConfig({
         baseUrl: "https://github.com/c-cpt/ava-guide-docs/edit/main/",
       },
       logo: {
-        src: "./imgs/dev_logo.svg",
+        src: "./src/assets/dev_logo.svg",
         replacesTitle: true,
       },
       components: {
