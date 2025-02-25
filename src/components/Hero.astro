@@ -26,6 +26,8 @@ if (image) {
 ---
 
 <div class="hero">
+  {title ? <h1 style="line-height:38px">{title}</h1> : null}
+  {tagline ? <p style="padding-top:10px">{tagline}</p> : null}
   {darkImage && <Image src={darkImage} {...imageAttrs} class="image" />}
   {lightImage && <Image src={lightImage} {...imageAttrs} class="image" />}
 </div>

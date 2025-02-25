@@ -1,22 +1,26 @@
 ---
 title: Getting Started With Blockchain Development
 description: A Comprehensive Guide for Web3 Developers
-hide_title: true
+# hide_title: true
 hero:
-  title: "My Project: Stellar Stuff Sooner"
-  tagline: Take your stuff to the moon and back in the blink of an eye.
-  image:
-    alt: A glittering, brightly colored logo
-    file: ../../../../public/imgs/content/GettingStartedHeader.png
+  title: Getting Started With Blockchain Development
+  tagline: A Comprehensive Guide for Web3 Developers
+#   image:
+#     alt: A glittering, brightly colored logo
+#     file: ../../../../public/imgs/content/GettingStartedHeader.png
 ---
 
-<style>
+<!-- <style>
 .content-panel:where(.astro-7nkwcw3z) {
     padding-top: 0px;
 }
-</style>
+</style> -->
 
 <!-- ![Getting Started Header](../../../../public/imgs/content/GettingStartedHeader.png) -->
+
+<!-- #### A Comprehensive Guide for Web3 Developers -->
+
+<br />
 
 ![Snowman Chart](../../../../public/imgs/content/SnowmanChart.png)
 
