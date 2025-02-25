@@ -32,7 +32,9 @@ Despite the many incentives to explore Web3, even seasoned developers can find b
 
 This guide serves as a bridge, equipping seasoned developers with the foundational knowledge and practical skills needed to navigate this new landscape. It provides an overview of what makes blockchain and decentralized applications (dApps) revolutionary, then moves on to practical instructions for building on Web3, from writing and deploying smart contracts to integrating blockchain infrastructure into real-world applications.
 
-### <span style="color: red">Understanding Web3 – A Paradigm Shift</span>
+<!-- ### <span style="color: red">Understanding Web3 – A Paradigm Shift</span> -->
+
+### Understanding Web3 – A Paradigm Shift
 
 Web3 is best understood in the context of its predecessors:
 
