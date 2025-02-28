@@ -6,12 +6,20 @@ hero:
   title: Getting Started With Blockchain Development
   tagline: A Comprehensive Guide for Web3 Developers
 image:
-  src: ../../../../public/imgs/content/GettingStartedHeader.png
+  url: ../../../../public/imgs/content/GettingStartedHeader.png
   alt: Getting Started With Blockchain Development
 #   image:
 #     alt: A glittering, brightly colored logo
 #     file: ../../../../public/imgs/content/GettingStartedHeader.png
 ---
+
+<head>
+  <Astro.head>
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={../../../../public/imgs/content/GettingStartedHeader.png} />
+  </Astro.head>
+</head>
 
 <!-- <style>
 .content-panel:where(.astro-7nkwcw3z) {
@@ -24,8 +32,7 @@ image:
 <!-- #### A Comprehensive Guide for Web3 Developers -->
 
 <br />
-
-![Snowman Chart](../../../../public/imgs/content/SnowmanChart.png)
+[![Snowman Chart](../../../../public/imgs/content/SnowmanChart.png)](../../../../public/imgs/content/SnowmanChart.png)
 
 Web3 marks a transition from centralized systems controlled by intermediaries to decentralized, trustless ecosystems that enable new levels of autonomy and user empowerment. And developers are taking note, with the number of experienced developers (2+ years) in the blockchain space [growing 52% last year](https://www.linkedin.com/pulse/web3-developer-activity-2023-trends-insights-david-mustac-5hqwf#:~:text=Despite%20an%20overall%20decrease%20in,all%2Dtime%20highs%20in%202023.).
 
@@ -274,7 +281,7 @@ The importance of community cannot be overstated: blockchain development is inhe
 
 ![Avalanche Logo](../../../../public/imgs/content/AvaLogo.png)
 
-[The Avalanche Community Hub](https://www.avax.network/community): The central organizing site for all things Avalanche and the brain trust of our community contributors.
+[The Avalanche Community Hub](https://build.avax.network/): The central organizing site for all things Avalanche and the brain trust of our community contributors.
 
 </div>
 
