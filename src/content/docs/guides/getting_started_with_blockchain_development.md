@@ -35,9 +35,9 @@ image:
 
 <img id="thumbnail" src="/imgs/content/SnowmanChart.png" alt="Thumbnail" style="cursor:pointer;width:100%;">
 
-<dialog id="fullscreen-dialog" style="margin:auto; border:none;background:rgb(0,0,0);width:95vw; height:95vh; ">
-  <img src="/imgs/content/SnowmanChart.png" style="width:80vw; height:90vh; display:block; margin:auto;">
-  <button onclick="document.getElementById('fullscreen-dialog').close();" style="position:absolute;top:-20px;right:20px; background-color: transparent;font-size:40px; font-weight:bold">x</button>
+<dialog id="fullscreen-dialog" style="margin:auto; border:none;background:rgb(0,0,0);width:95vw; ">
+  <img src="/imgs/content/SnowmanChart.png" style="width:80vw; display:block; margin:auto;">
+  <button onclick="document.getElementById('fullscreen-dialog').close();" style="position:absolute;top:-25px;right:10px; background-color: transparent;font-size:40px; font-weight:bold">x</button>
 </dialog>
 
 Web3 marks a transition from centralized systems controlled by intermediaries to decentralized, trustless ecosystems that enable new levels of autonomy and user empowerment. And developers are taking note, with the number of experienced developers (2+ years) in the blockchain space [growing 52% last year](https://www.linkedin.com/pulse/web3-developer-activity-2023-trends-insights-david-mustac-5hqwf#:~:text=Despite%20an%20overall%20decrease%20in,all%2Dtime%20highs%20in%202023.).
