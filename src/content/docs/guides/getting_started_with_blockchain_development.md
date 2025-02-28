@@ -32,10 +32,13 @@ image:
 <!-- #### A Comprehensive Guide for Web3 Developers -->
 
 <br />
-<a href="../../../../public/imgs/content/SnowmanChart.png" target="_blank">
 
-![Snowman Chart](/imgs/content/SnowmanChart.png)
-</a>
+<img id="thumbnail" src="/imgs/content/SnowmanChart.png" alt="Thumbnail" style="cursor:pointer;width:100%;">
+
+<dialog id="fullscreen-dialog" style="margin:auto; border:none;background:rgb(0,0,0);width:95vw; height:95vh; ">
+  <img src="/imgs/content/SnowmanChart.png" style="width:80vw; height:90vh; display:block; margin:auto;">
+  <button onclick="document.getElementById('fullscreen-dialog').close();" style="position:absolute;top:-20px;right:20px; background-color: transparent;font-size:40px; font-weight:bold">x</button>
+</dialog>
 
 Web3 marks a transition from centralized systems controlled by intermediaries to decentralized, trustless ecosystems that enable new levels of autonomy and user empowerment. And developers are taking note, with the number of experienced developers (2+ years) in the blockchain space [growing 52% last year](https://www.linkedin.com/pulse/web3-developer-activity-2023-trends-insights-david-mustac-5hqwf#:~:text=Despite%20an%20overall%20decrease%20in,all%2Dtime%20highs%20in%202023.).
 
@@ -400,3 +403,19 @@ Start small, experiment boldly, and embrace the ethos of decentralization. The p
 - **Testnet**: A blockchain environment used to test new features or apps without using real funds. Popular testnets include Ethereum’s **Rinkeby** and Avalanche’s **Fuji**.
 
 - **Time to Finality:** The length of time between a transaction being submitted to a blockchain and when it becomes unchangeable.
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const thumbnail = document.getElementById("thumbnail");
+    const dialog = document.getElementById("fullscreen-dialog");
+    const closeBtn = document.getElementById("close-dialog");
+
+    thumbnail.addEventListener("click", function() {
+      dialog.showModal();
+    });
+
+    closeBtn.addEventListener("click", function() {
+      dialog.close();
+    });
+  });
+</script>
