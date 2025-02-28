@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 
 const { data } = Astro.locals.starlightRoute.entry;
 const { title = data.title, tagline, image, actions = [] } = data.hero || {};
+const isHomepage = Astro.locals.starlightRoute.id === "";
 
 const imageAttrs = {
   loading: "eager" as const,
@@ -25,8 +26,8 @@ if (image) {
 }
 ---
 
-<div class="hero">
-  {title ? <h1 style="line-height:38px">{title}</h1> : null}
+<div class="hero md:px-[80px]">
+  {title && !isHomepage ? <h1 style="line-height:38px">{title}</h1> : null}
   {tagline ? <p style="padding-top:10px">{tagline}</p> : null}
   {darkImage && <Image src={darkImage} {...imageAttrs} class="image" />}
   {lightImage && <Image src={lightImage} {...imageAttrs} class="image" />}
