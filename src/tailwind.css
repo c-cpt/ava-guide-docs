@@ -42,6 +42,10 @@ starlight-theme-select {
   display: none;
 }
 
+.header:where(.astro-vrdttmbt) {
+  background: rgba(0, 0, 0, 0.85);
+}
+
 /* Dark mode colors. */
 :root {
   --sl-color-accent-low: #421012;
