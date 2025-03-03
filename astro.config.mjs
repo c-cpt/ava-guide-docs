@@ -49,6 +49,16 @@ export default defineConfig({
           ],
         },
         {
+          label: "Builder Stories",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            {
+              label: "BitNote Builds a Safe Place for Your Most Sensitive Data",
+              slug: "builder-stories/bitnote_safe_place",
+            },
+          ],
+        },
+        {
           label: "Reference",
           autogenerate: { directory: "reference" },
         },
