@@ -1,6 +1,9 @@
 ---
 title: BitNote Builds a Safe Place for Your Most Sensitive Data
 description: Builds a Safe Place for Your Most Sensitive Data
+hero:
+  title: BitNote A Comprehensive Guide for Web3 Developers
+  tagline: ""
 ---
 
 <head>

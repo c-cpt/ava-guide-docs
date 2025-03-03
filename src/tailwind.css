@@ -133,4 +133,8 @@ a:where(.astro-g2bywc46)[aria-current="true"]::before {
     margin-left: 0px;
     margin-top: 0px;
   }
+  .md\:px-\[80px\] {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }

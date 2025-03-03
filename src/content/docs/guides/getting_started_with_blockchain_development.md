@@ -5,9 +5,9 @@ description: A Comprehensive Guide for Web3 Developers
 hero:
   title: Getting Started With Blockchain Development
   tagline: A Comprehensive Guide for Web3 Developers
-image:
-  url: ../../../../public/imgs/content/GettingStartedHeader.png
-  alt: Getting Started With Blockchain Development
+# image:
+#   url: ../../../../public/imgs/content/GettingStartedHeader.png
+#   alt: Getting Started With Blockchain Development
 #   image:
 #     alt: A glittering, brightly colored logo
 #     file: ../../../../public/imgs/content/GettingStartedHeader.png
