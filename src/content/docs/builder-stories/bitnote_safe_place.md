@@ -1,16 +1,6 @@
 ---
 title: BitNote Builds a Safe Place for Your Most Sensitive Data
 description: Builds a Safe Place for Your Most Sensitive Data
-# hide_title: true
-# hero:
-#   title: Getting Started With Blockchain Development
-#   tagline: A Comprehensive Guide for Web3 Developers
-image:
-  url: ../../../../public/imgs/content/GettingStartedHeader.png
-  alt: Getting Started With Blockchain Development
-#   image:
-#     alt: A glittering, brightly colored logo
-#     file: ../../../../public/imgs/content/GettingStartedHeader.png
 ---
 
 <head>
@@ -21,15 +11,7 @@ image:
   </Astro.head>
 </head>
 
-<!-- <style>
-.content-panel:where(.astro-7nkwcw3z) {
-    padding-top: 0px;
-}
-</style> -->
-
 ![Getting Started Header](../../../../public/imgs/content/bitNoteHero.jpg)
-
-<!-- #### A Comprehensive Guide for Web3 Developers -->
 
 <br />
 
@@ -54,7 +36,7 @@ You can listen to the whole discussion here and read on for highlights.
 <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
   <iframe 
     src="https://www.youtube.com/embed/ukovHNdkAkQ?si=QO5CMGBnHvZs605M" 
-    title="YouTube video player" 
+    title="Video Player: Interview with Rockwell Shah from BitNote" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     referrerpolicy="strict-origin-when-cross-origin" 

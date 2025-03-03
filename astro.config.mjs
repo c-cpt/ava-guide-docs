@@ -56,6 +56,10 @@ export default defineConfig({
               label: "BitNote Builds a Safe Place for Your Most Sensitive Data",
               slug: "builder-stories/bitnote_safe_place",
             },
+            {
+              label: "Colony Lab Democratizes Early-Stage Investment",
+              slug: "builder-stories/colony-lab-emocratizes-early-stage-investment",
+            },
           ],
         },
         {
