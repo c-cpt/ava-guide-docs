@@ -287,7 +287,7 @@ The importance of community cannot be overstated: blockchain development is inhe
 
 ![Avalanche Logo](../../../../public/imgs/content/AvaLogo.png)
 
-[The Avalanche Community Hub](https://build.avax.network/): The central organizing site for all things Avalanche and the brain trust of our community contributors.
+[Avalanche Builders Hub](https://build.avax.network/): Find all the resources, tools and documentation you need to build on Avalanche.
 
 </div>
 
