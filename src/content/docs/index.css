@@ -4,11 +4,12 @@
 .astro-bguv2lll {
   overflow-x: hidden;
 }
+
 .top-content::before {
   z-index: -1;
   content: "";
   position: absolute;
-  top: 40px;
+  top: 100px;
   left: -100px;
   right: 0;
   bottom: 0;
@@ -32,6 +33,8 @@
   left: 0;
   background: url("/imgs/footer-mesh.svg") no-repeat bottom center;
   background-size: 200% auto;
+  max-width: 1700px;
+  margin: auto;
 }
 a {
   text-decoration: none;
@@ -43,7 +46,7 @@ a {
     margin-top: 205px !important;
   }
   .top-content::before {
-    top: 0;
+    top: -50px;
   }
   .bottom-content {
     background-size: 100% auto;
