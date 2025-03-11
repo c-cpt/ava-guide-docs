@@ -20,6 +20,12 @@ export default defineConfig({
             src: "/plugins/theme.js",
           },
         },
+        {
+          tag: "meta",
+          attrs: {
+            "og:image": "/imgs/og-cover.png",
+          },
+        },
       ],
       favicon: "/favicon.ico",
       title: "",
